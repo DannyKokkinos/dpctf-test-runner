@@ -230,7 +230,7 @@ fi;
 
 echo ""
 echo "Importing DPCTF tests ..."
-git clone -b $branch --single-branch https://github.com/cta-wave/dpctf-tests dpctf
+git clone -b $branch --single-branch https://github.com/DannyKokkinos/dpctf-tests dpctf
 mv dpctf/generated/* .
 mv dpctf/test-config.json .
 rm -rf dpctf
